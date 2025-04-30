@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Хедер</title>
+    <style>
+      @font-face {
+        font-family: "Wadik";
+        src: url("fonts/Wadik.otf") format("truetype");
+      }
+
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+      }
+      .header {
+        position: relative;
+        text-align: center;
+        width: 100%;
+      }
+      .top-line {
+        width: 1266px;
+        height: 2px;
+        background-color: #21212180;
+        position: relative;
+        top: 25px;
+        margin: 0 auto;
+      }
+      .bottom-line {
+        width: 1266px;
+        height: 2px;
+        background-color: #21212180;
+        margin: 15px auto 0;
+      }
+      .menu-icon {
+        position: absolute;
+        left: 500px;
+        top: 65px;
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+      }
+      .menu-icon div {
+        width: 40px;
+        height: 2px;
+        background-color: black;
+      }
+      .title-container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding-top: 45px;
+      }
+      .title {
+        font-size: 15px;
+        font-family: "Wadik", sans-serif;
+        margin-left: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <div class="top-line"></div>
+      <div class="menu-icon">
+        <div></div>
+        <div></div>
+        <div></div>
+      </div>
+      <div class="title-container">
+        <img
+          src="3f8b7b9f9fabfa6ab88d4b12cf5b8730.png"
+          alt="Логотип"
+          width="50"
+          height="50"
+        />
+        <div class="title">STARINVEST</div>
+      </div>
+      <div class="bottom-line"></div>
+    </div>
+  </body>
+</html>
